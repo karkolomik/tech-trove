@@ -6,13 +6,12 @@ const Navbar = () => {
   return (
     <>
       <header className="header">
-        <div className="conteiner d-flex">
-          <div className="categories d-flex">
-            <span className="fa-solid fa-bolrer-all">
-              <h4>
-                <i className="fa fa-chevron-down">Categories</i>
-              </h4>
-            </span>
+        <div className="container d-flex">
+          <div className="catgrories d-flex">
+            <span class="fa-solid fa-border-all"></span>
+            <h4>
+              Categories <i className="fa fa-chevron-down"></i>
+            </h4>
           </div>
           <div className="navlink">
             <ul
