@@ -56,3 +56,66 @@ li {
 .RText {
   text-align: right;
 }
+
+input,
+button {
+  border: none;
+  outline: none;
+  background-color: none;
+}
+
+.row {
+  width: 50%;
+}
+
+.icon-circle {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #f3f5f9;
+  margin-left: 20px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.boxShadow {
+  box-shadow: rgb(43, 52, 69 / 10%) 0px 4px 16px;
+}
+
+/*Categories Styling --------------------------------- */
+
+.contentWidth {
+  width: 77%;
+}
+
+.category {
+  width: 23%;
+  box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+  background-color: #fff;
+  height: 510px;
+  padding: 15px 0;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.category img {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  object-fit: contain;
+}
+
+.category span {
+  margin: 10px 20px;
+  text-transform: capitalize;
+}
+
+.category .box {
+  padding: 0 20px;
+}
+
+.category .box:hover {
+  background-color: #ffe1ff;
+  cursor: pointer;
+}
+
+/*Categories Styling --------------------------------- */

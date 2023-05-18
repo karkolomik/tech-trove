@@ -3,6 +3,10 @@ import logo from "../assets/images/logo3.png";
 import { Link } from "react-router-dom";
 
 const Search = () => {
+  window.addEventListener("scroll", () => {
+    const search = document.querySelector(".search");
+    search.classList.toggle("active", window.scrollY > 100);
+  });
   return (
     <>
       <section className="search">

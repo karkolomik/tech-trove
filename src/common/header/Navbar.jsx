@@ -7,11 +7,9 @@ const Navbar = () => {
     <>
       <header className="header">
         <div className="container d-flex">
-          <div className="catgrories d-flex">
+          <div className="categories d-flex">
             <span class="fa-solid fa-border-all"></span>
-            <h4>
-              Categories <i className="fa fa-chevron-down"></i>
-            </h4>
+            <h4>Categories</h4>
           </div>
           <div className="navlink">
             <ul
@@ -49,7 +47,7 @@ const Navbar = () => {
               {MobileMenu ? (
                 <i className="fas fa-times close home-bth"></i>
               ) : (
-                <i className="fas fa-bars open"></i>
+                <i className="fa-solid fa-bars open"></i>
               )}
             </button>
           </div>
