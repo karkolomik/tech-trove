@@ -119,3 +119,21 @@ button {
 }
 
 /*Categories Styling --------------------------------- */
+
+.btn-primary {
+  background-color: #e94560;
+  margin-top: 25px;
+  padding: 13px 40px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.top {
+  margin-top: 40px;
+}
+
+.mtop {
+  margin-top: 20px;
+}
