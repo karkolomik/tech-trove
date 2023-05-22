@@ -12,12 +12,10 @@ const Head = () => {
             <label>karkolom@gmail.com</label>
           </div>
           <div className="right row RText">
-            <label>Theme FAQ's</label>
+            <label>FAQ's</label>
             <label>Need Help?</label>
-            <span>transparent flag</span>
             <label>EN</label>
-            <span>transparent flag</span>
-            <label>USD</label>
+            <label>UA</label>
           </div>
         </div>
       </section>
